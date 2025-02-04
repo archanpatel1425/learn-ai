@@ -6,26 +6,22 @@ paths:
   static: public
   uploads: public/uploads
 collections_config:
-  webpages:
+  data:
+    path: data
+    disable_add: true
+    disable_add_folder: true
+  pages:
     path: content/pages
-    name: Pages
-    icon: wysiwyg
     url: /[slug]
-    disable_url: false
-    description: ""
+    output: true
+    icon: wysiwyg
     _enabled_editors:
       - visual
       - data
-    disable_add: false
-    disable_add_folder: false
-    disable_file_actions: false
-  data:
-    path: data
-    icon: notes
-    disable_url: false
-    disable_add: false
-    disable_add_folder: false
-    disable_file_actions: false
+    schemas:
+      default:
+        name: New Page
+        path: schemas/page.md
 
 _select_data:
   call_to_actions:

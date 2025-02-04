@@ -1,7 +1,7 @@
 import Layout from "@/components/layouts";
 import Sections from "@/components/sections";
 import Filer from "@cloudcannon/filer";
-
+import Blocks from '../components/shared/Blocks';
 const filer = new Filer({ path: "content" });
 
 async function HomePage() {
@@ -10,7 +10,7 @@ async function HomePage() {
 
   return (
     <Layout>
-      <Sections block={PageData?.data?.content_blocks} />
+      <Blocks content_blocks={PageData.data.content_blocks} />
     </Layout>
   );
 }

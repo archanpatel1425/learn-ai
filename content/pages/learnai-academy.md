@@ -7,16 +7,16 @@ title: learnai-acaemy
 #   featured_image: https://images.unsplash.com/photo-1485827404703-89b55fcc595e
 #   featured_image_alt: Global AI Impact
 #   author_twitter_handle:
-#   open_graph_type: website
+#   open_graph_bookshop_name: website
 #   no_index: false
 content_blocks:
-  - _type: academyHeroSection
+  - _bookshop_name: academyHeroSection
     title_prefix: LEARN AI
     highlight: ACADEMY
     background_img: /assets/images/academy-wire.png
     background_imgTwo: /assets/images/academy-banner.svg
 
-  - _type: coloringCardsSection
+  - _bookshop_name: coloringCardsSection
     cards:
       - title: Academy for Individuals
         description: >-
@@ -48,7 +48,7 @@ content_blocks:
         btn_text: Partner with out Academy
         btn_link: contact-us
 
-  - _type: reshapingCareerSection
+  - _bookshop_name: reshapingCareerSection
     title: Reshaping Careers and Businesses through AI Education
     description: >-
       Our comprehensive educational journey is designed to illuminate the path to the future of work, empowering individuals and businesses to harness the boundless potential of AI.

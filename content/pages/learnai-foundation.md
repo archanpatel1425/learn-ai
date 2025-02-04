@@ -7,21 +7,21 @@ title: learnai-foundation
 #   featured_image: https://images.unsplash.com/photo-1485827404703-89b55fcc595e
 #   featured_image_alt: Global AI Impact
 #   author_twitter_handle:
-#   open_graph_type: website
+#   open_graph_bookshop_name: website
 #   no_index: false
 content_blocks:
-  - _type: foundationHeroSection
+  - _bookshop_name: foundationHeroSection
     title_prefix: LEARN AI
     highlight: FOUNDATION
     background_img: /assets/images/academy-wire.png
     background_imgTwo: /assets/images/ai-foundation-bg.png
 
-  - _type: foundationTextSection
+  - _bookshop_name: foundationTextSection
     title: >-
       Our objective is to offer accessible and top-notch learning experiences that empower individuals with the necessary skills to excel in today's rapidly evolving society.
     image: /assets/images/text-crop-image.png
 
-  - _type: foundationCardSection
+  - _bookshop_name: foundationCardSection
     round_text: LearnFoundation
     round_desc: Accessible and high-quality learning experience
     cards:
@@ -34,13 +34,13 @@ content_blocks:
       - image: /assets/images/course4.png
         title: Micro, fair salary Macro, Economic boost
 
-  - _type: foundationMapSection
+  - _bookshop_name: foundationMapSection
     map_img: /assets/images/africa-map.png
     prefix_text: With our latest initiative, in collaboration with the
     highlight: Kenyan government and Ministry
     suffix: of Education, we are on a mission...
 
-  - _type: foundationStudentsSection
+  - _bookshop_name: foundationStudentsSection
     title: Onboarding Kenyan students onto our e-learning platform
     desc_one: >-
       Our primary objective is to empower these students with AI knowledge and expertise, opening doors to a world of possibilities.
@@ -48,14 +48,14 @@ content_blocks:
       By offering comprehensive AI courses, practical training, and hands-on projects, we aim to equip them with the necessary skills to excel in their careers.
     image: /assets/images/e-learning-right.png
 
-  - _type: foundationLastTextSection
+  - _bookshop_name: foundationLastTextSection
     desc_one: >-
       The focus of this project is to enable students to acquire higher-paying skills that can pave the way for better job prospects and economic growth.
     desc_two: >-
       By equipping them with AI competencies, we aim to bridge the gap between education and employment, empowering students to secure lucrative positions in international job markets.
     image: /assets/images/focus-right-image.png
 
-  - _type: foundationctaSection
+  - _bookshop_name: foundationctaSection
     description: >-
       Join us in this endeavor as we revolutionize education. Unlock the potential of students around the globe, and empower them to shape a brighter future for themselves and their nation.
     btn_text: Join us Now

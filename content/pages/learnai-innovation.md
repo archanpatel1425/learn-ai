@@ -7,16 +7,16 @@ title: learnai-innovation
 #   featured_image: https://images.unsplash.com/photo-1485827404703-89b55fcc595e
 #   featured_image_alt: Global AI Impact
 #   author_twitter_handle:
-#   open_graph_type: website
+#   open_graph_bookshop_name: website
 #   no_index: false
 content_blocks:
-  - _type: innovationHeroSection
+  - _bookshop_name: innovationHeroSection
     title_prefix: LEARN AI
     highlight: INNOVATION HUB
     background_img: /assets/images/academy-wire.png
     background_imgTwo: /assets/images/innovation-bg.png
 
-  - _type: innovationCardsSection
+  - _bookshop_name: innovationCardsSection
     cards:
       - image: /assets/images/cloud.png
         title: We have a specialized consultancy firm called
@@ -33,7 +33,7 @@ content_blocks:
 
       - image: /assets/images/north-logo.svg
 
-  - _type: innovationhoverCardSection
+  - _bookshop_name: innovationhoverCardSection
     title: We offer a variety of services that cover a wide range of applications.
     hoverCards:
       - titlt_highlight: SALES
@@ -80,7 +80,7 @@ content_blocks:
 
       - card_bg: /assets/images/cartoon-bg.png
 
-  - _type: innovationctaSection
+  - _bookshop_name: innovationctaSection
     description: >-
       Join us at LearnAi Innovation Hub, and together with North, let's reimagine the future of your enterprise through the power of AI.
     btn_text: Get Started

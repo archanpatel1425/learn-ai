@@ -7,10 +7,10 @@ title: Our Team
 #   featured_image: https://images.unsplash.com/photo-1522071820081-009f0129c71c
 #   featured_image_alt: LearnAI Team
 #   author_twitter_handle:
-#   open_graph_type: website
+#   open_graph_bookshop_name: website
 #   no_index: false
 content_blocks:
-  - _type: teamHeroSection
+  - _bookshop_name: teamHeroSection
     title: We
     highlight: Assemble
     title_suffix: The Talent
@@ -18,7 +18,7 @@ content_blocks:
     description: >-
       At LearnAi, we have assembled a talented and diverse team of professionals to help us achieve our goals. Each member of our team brings unique skills and experience to the table, allowing us to offer comprehensive and cutting-edge solutions to our clients.
 
-  - _type: teamLeadershipSection
+  - _bookshop_name: teamLeadershipSection
     title: Our Leadership Team
     team_members:
       - name: Alex Abid

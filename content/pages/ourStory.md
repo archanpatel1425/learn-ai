@@ -7,17 +7,17 @@ title: Our Story
 #   featured_image: https://images.unsplash.com/photo-1522071820081-009f0129c71c
 #   featured_image_alt: LearnAI Team
 #   author_twitter_handle:
-#   open_graph_type: website
+#   open_graph_bookshop_name: website
 #   no_index: false
 content_blocks:
-  - _type: ourStoryHeroSection
+  - _bookshop_name: ourStoryHeroSection
     title: was Created to Differentiate Hype from Value
     title_suffix: The Talent
     above_title: In a world full of AI buzz, how will you navigate?
     below_title: Let's grab a virtual coffee as we share our story
     background_image: /assets/images/story-banner-bg.png
 
-  - _type: ourStoryJourneySection
+  - _bookshop_name: ourStoryJourneySection
     Journey:
       - year: 2022
         title: Mid-2022 The birth of LearnAi
@@ -61,13 +61,13 @@ content_blocks:
           So, grab a seat, my friend, and let's chat AI. It's gonna be a wild ride!
         half_circle: /assets/images/half-circle-left.png
 
-  - _type: ourStorypassionateSection
+  - _bookshop_name: ourStorypassionateSection
     title: Why are we so passionate about this?
     description: >-
       We know AI has the potential to transform the world we live in. But to achieve this, it is essential to approach AI with    a  deep sense of responsibility.
     side_image: /assets/images/women-que.png
 
-  - _type: ourStoryjoinusSection
+  - _bookshop_name: ourStoryjoinusSection
     descriptionOne: At LearnAi, we're committed to persist in our efforts to make AI more accessible, expanding our impact, and shaping the future of AI.
     descriptionTwoPrefix: We invite you to
     descriptionTwoHighlight: join us on this journey.

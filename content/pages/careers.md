@@ -7,10 +7,10 @@ title: Career
 #   featured_image: https://images.unsplash.com/photo-1485827404703-89b55fcc595e
 #   featured_image_alt: Global AI Impact
 #   author_twitter_handle:
-#   open_graph_type: website
+#   open_graph_bookshop_name: website
 #   no_index: false
 content_blocks: 
-  - _type: careerHeroSection
+  - _bookshop_name: careerHeroSection
     title_prefix: Hero section
     highlight: Strength
     title_suffix: of Our Mission Lies in the
@@ -20,7 +20,7 @@ content_blocks:
     background_img: /assets/images/mission-bg.png
     background_imgTwo: /assets/images/career-bg.png
 
-  - _type: careerworkingSection
+  - _bookshop_name: careerworkingSection
     title: Working At LearnAi
     cards:
       - description_prefix: Joining the LearnAi team means being part of a
@@ -65,7 +65,7 @@ content_blocks:
         right: true
         image: /assets/images/workingAt5.png
 
-  - _type: careerWhyJoinSection
+  - _bookshop_name: careerWhyJoinSection
     title: Why Join LearnAI?
     Answers:
       - title: Make an Impact
@@ -88,7 +88,7 @@ content_blocks:
           We're proud to have built an inclusive work environment where diversity is celebrated, and everyone feels valued and heard.
         Image: /assets/images/join4.png
 
-  - _type: careerOpeningSection
+  - _bookshop_name: careerOpeningSection
     title: Current Openings
     description: Explore our current job openings below, there's a place for you at LearnAi. If you don't see a role that fits, we'd still love to hear from you. Apply today!
     cards:
@@ -110,7 +110,7 @@ content_blocks:
         image: /assets/images/opening3.png
         button_text: Find Out More
 
-  - _type: careerApplySection
+  - _bookshop_name: careerApplySection
     title: How To Apply
     description: Interested in joining our team? Here's how to apply
     cards:
@@ -123,7 +123,7 @@ content_blocks:
       - title: If you think you're a good fit, click the 'Apply Now' button to submit your application
         image: /assets/images/apply3.png
 
-  - _type: careerCTASection
+  - _bookshop_name: careerCTASection
     title: If you're passionate about AI and eager to make a global impact, we'd love to hear from you. Join us, and let's democratize AI education together!
     btn_text: Find Out More
     btn_link: /learnai-academy`

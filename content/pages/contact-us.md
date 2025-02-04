@@ -7,10 +7,10 @@ title: Contact Us
 #   featured_image: https://images.unsplash.com/photo-1522071820081-009f0129c71c
 #   featured_image_alt: LearnAI Team
 #   author_twitter_handle:
-#   open_graph_type: website
+#   open_graph_bookshop_name: website
 #   no_index: false
 content_blocks:
-  - _type: teamContactUsSection
+  - _bookshop_name: teamContactUsSection
     title: Get In Touch!
     description: One of our team will get back to your enquiry.
     insta_image: /assets/images/get-in-insta.png

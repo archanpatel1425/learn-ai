@@ -7,27 +7,27 @@ title: Our Mission
 #   featured_image: https://images.unsplash.com/photo-1485827404703-89b55fcc595e
 #   featured_image_alt: Global AI Impact
 #   author_twitter_handle:
-#   open_graph_type: website
+#   open_graph_bookshop_name: website
 #   no_index: false
 content_blocks:
-  - _type: missionHeroSection
+  - _bookshop_name: missionHeroSection
     title: Driving
     highlight: Global
     title_suffix: Impact
 
-  - _type: missionStatementSection
+  - _bookshop_name: missionStatementSection
     title: Our Mission
     description: >-
       Is to shape the future of AI adoption and the ethical
       implementation in driving global impact
 
-  - _type: missionWhyMattersSection
+  - _bookshop_name: missionWhyMattersSection
     title: Why Our Mission Matters
     description: >-
       As AI continues to evolve, the ability to leverage and utilize this technology responsibly has become
       increasingly vital. This is where our mission at LearnAI takes center stage.
 
-  - _type: missionKeyPointsSection
+  - _bookshop_name: missionKeyPointsSection
     points:
       - title: The Need For Global AI Literacy
         description: >-
@@ -53,7 +53,7 @@ content_blocks:
         image: /assets/images/mission-study4.png
         image_alt: Innovation concept
 
-  - _type: missionCTASection
+  - _bookshop_name: missionCTASection
     cards:
       - title: Join Our Mission
         button_text: Find Out More
@@ -73,13 +73,13 @@ content_blocks:
           Partnerships are key to our mission. We welcome organizations, educational institutions, government bodies, and AI enthusiasts to partner with us. Whether it's through collaborations in our educational programs, support in our innovation hub, or joining hands for philanthropic initiatives, there's a myriad of ways we can work together to advance AI knowledge and application..
         icon: /assets/images/mission-white3.png
 
-  - _type: missionCommitmentSection
+  - _bookshop_name: missionCommitmentSection
     title: Our Commitment
     description: >-
       We are dedicated to making AI education available to everyone by fostering innovation with the potential to
       ethically change the future.
 
-  - _type: missionContactSection
+  - _bookshop_name: missionContactSection
     title: >-
       Are you ready to play a part in shaping the future of AI? If you're interested, we invite you to join our mission. Let's turn our shared vision into reality.
     button_text: Contact Us
