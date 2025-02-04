@@ -1,0 +1,77 @@
+{
+    "logo": "/logo.png",
+    "items": [
+        {
+            "link": "/",
+            "text": "Home"
+        },
+        {
+            "link": "/our-mission/",
+            "text": "Our Mission"
+        },
+        {
+            "text": "About us",
+            "title": "About us",
+            "description": "Learn about our story, who we are, our mission and more",
+            "cta": [
+                {
+                    "link": "our-mission",
+                    "label": "Learn about Our Mission"
+                }
+            ],
+            "submenu": [
+                {
+                    "link": "our-story",
+                    "text": "Our Story"
+                },
+                {
+                    "link": "team",
+                    "text": "Our People"
+                },
+                {
+                    "link": "careers",
+                    "text": "Careers"
+                },
+                {
+                    "link": "contact_us",
+                    "text": "Contact Us"
+                }
+            ]
+        },
+        {
+            "text": "Our Work",
+            "title": "Our Work",
+            "description": "Learn about our story, who we are, our mission and more",
+            "cta": [
+                {
+                    "link": "our-mission",
+                    "label": "Learn about Our Mission"
+                }
+            ],
+            "submenu": [
+                {
+                    "link": "learnai-academy",
+                    "text": "LearnAi Academy"
+                },
+                {
+                    "link": "learnai-foundation",
+                    "text": "LearnAi Foundation"
+                },
+                {
+                    "link": "learnai-innovation",
+                    "text": "LearnAi Innovation Hub"
+                }
+            ]
+        }
+    ],
+    "SocialIcons": [
+        {
+            "link": "https://www.linkedin.com/company/learn-aiorg/",
+            "icon": "LinkedIn"
+        },
+        {
+            "link": "https://instagram.com/learnaiorg?igshid=NTc4MTIwNjQ2YQ==",
+            "icon": "instagram"
+        }
+    ]
+}

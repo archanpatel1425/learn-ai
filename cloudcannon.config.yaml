@@ -1,0 +1,49 @@
+_schema: _schema
+source: /
+paths:
+  collections: content
+  data: data
+  static: public
+  uploads: public/uploads
+collections_config:
+  webpages:
+    path: content/pages
+    name: Pages
+    icon: wysiwyg
+    url: /[slug]
+    disable_url: false
+    description: ""
+    _enabled_editors:
+      - visual
+      - data
+    disable_add: false
+    disable_add_folder: false
+    disable_file_actions: false
+  data:
+    path: data
+    icon: notes
+    disable_url: false
+    disable_add: false
+    disable_add_folder: false
+    disable_file_actions: false
+
+_select_data:
+  call_to_actions:
+    - Contact
+    - Blog
+  social_icons:
+    - Facebook
+    - Instagram
+    - LinkedIn
+    - Pinterest
+    - Tumblr
+    - Twitter
+    - YouTube
+    - RSS
+commit_templates:
+  - label:
+    template_string:
+    template_path:
+    _inputs:
+    extra_data:
+timezone: Etc/UTC
