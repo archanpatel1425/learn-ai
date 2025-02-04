@@ -6,7 +6,8 @@
     "dev": "next dev --turbopack",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "bookshop": "npx @bookshop/generate"
   },
   "dependencies": {
     "@cloudcannon/filer": "^0.0.3",
@@ -22,6 +23,7 @@
     "remark-parse": "^11.0.0"
   },
   "devDependencies": {
+    "@bookshop/generate": "^3.13.0",
     "@eslint/eslintrc": "^3",
     "@types/markdown-it": "^14.1.2",
     "@types/node": "^20",

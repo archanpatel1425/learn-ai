@@ -1,45 +1,25 @@
-_schema: _schema
-source: /
 paths:
-  collections: content
-  data: data
-  static: public
   uploads: public/uploads
-collections_config:
-  data:
-    path: data
-    disable_add: true
-    disable_add_folder: true
-  pages:
-    path: content/pages
-    url: /[slug]
-    output: true
-    icon: wysiwyg
-    _enabled_editors:
-      - visual
-      - data
-    schemas:
-      default:
-        name: New Page
-        path: schemas/page.md
+  data: content/data
+  layouts: null
+  includes: components
+  collections: content
+  static: public
+
+collection_groups:
+  - heading: Content
+    collections:
+      - pages
+      - posts
+
+_inputs:
+  title:
+    type: text
+  content:
+    type: markdown
 
 _select_data:
-  call_to_actions:
-    - Contact
-    - Blog
-  social_icons:
-    - Facebook
-    - Instagram
-    - LinkedIn
-    - Pinterest
-    - Tumblr
-    - Twitter
-    - YouTube
-    - RSS
-commit_templates:
-  - label:
-    template_string:
-    template_path:
-    _inputs:
-    extra_data:
-timezone: Etc/UTC
+  colors:
+    - red
+    - blue
+    - green
