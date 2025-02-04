@@ -11,7 +11,7 @@ title: Career
 #   no_index: false
 content_blocks:
   - _type: careerHeroSection
-    title_prefix: The
+    title_prefix: Hero section
     highlight: Strength
     title_suffix: of Our Mission Lies in the
     highlightTwo: Power
@@ -126,5 +126,5 @@ content_blocks:
   - _type: careerCTASection
     title: If you're passionate about AI and eager to make a global impact, we'd love to hear from you. Join us, and let's democratize AI education together!
     btn_text: Find Out More
-    btn_link: /learnai-academy
+    btn_link: /learnai-academy`
 ---
