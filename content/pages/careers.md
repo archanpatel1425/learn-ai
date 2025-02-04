@@ -9,7 +9,7 @@ title: Career
 #   author_twitter_handle:
 #   open_graph_type: website
 #   no_index: false
-content_blocks:
+content_blocks: 
   - _type: careerHeroSection
     title_prefix: Hero section
     highlight: Strength
