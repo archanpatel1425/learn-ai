@@ -1,0 +1,37 @@
+spec:
+  structures:
+    - content_blocks
+  label: Why Join Section
+  description: A section to showcase reasons or benefits for joining with images and descriptions.
+  icon: "heart"
+  tags: ["why-join", "reasons", "benefits"]
+
+blueprint:
+  title: "Why Join Us?"
+  Answers:
+    - title: "Benefit 1"
+      description: "Learn and grow with us, exploring new opportunities."
+      Image: "/images/answer-image-1.png"
+    - title: "Benefit 2"
+      description: "Collaborate with a team of talented professionals."
+      Image: "/images/answer-image-2.png"
+    - title: "Benefit 3"
+      description: "Enjoy a supportive and inclusive work environment."
+      Image: "/images/answer-image-3.png"
+
+preview:
+
+_inputs:
+  Answers:
+    type: array
+    items:
+      type: object
+      properties:
+        title:
+          type: string
+        description:
+          type: string
+        Image:
+          type: image
+  description:
+    type: markdown

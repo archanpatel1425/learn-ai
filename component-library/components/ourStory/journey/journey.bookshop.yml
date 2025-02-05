@@ -1,0 +1,46 @@
+spec:
+  structures:
+    - content_blocks
+  label: Journey Timeline
+  description: "Displays a journey timeline with years, titles, images, and descriptions."
+  icon: "heroicons-outline:clock"
+  tags: ["journey", "timeline", "history"]
+
+blueprint:
+  Journey:
+    - year: "2021"
+      title: "Company Launch"
+      image: "/path/to/image1.png"
+      image_alt: "Image for 2021"
+      description: "Our company was founded in 2021 with a vision for growth."
+      half_circle: "/path/to/half-circle1.png"
+    - year: "2022"
+      title: "First Milestone"
+      image: "/path/to/image2.png"
+      image_alt: "Image for 2022"
+      description: "Achieved our first major milestone in 2022, expanding globally."
+      half_circle: "/path/to/half-circle2.png"
+
+_inputs:
+  Journey:
+    type: array
+    label: "Journey Items"
+    items:
+      year:
+        type: string
+        label: "Year"
+      title:
+        type: string
+        label: "Title"
+      image:
+        type: image
+        label: "Image"
+      image_alt:
+        type: string
+        label: "Image Alt Text"
+      description:
+        type: string
+        label: "Description"
+      half_circle:
+        type: image
+        label: "Half Circle Image"

@@ -1,0 +1,28 @@
+spec:
+  structures:
+    - content_blocks
+  label: Passionate Section
+  description: "Displays a passionate message with title, description, and side image."
+  icon: "heroicons-outline:heart"
+  tags: ["passionate", "message", "image"]
+
+blueprint:
+  Passionate:
+    title: "Our Passion"
+    description: "We are deeply passionate about our work and strive for excellence in everything we do."
+    side_image: "/path/to/side-image.png"
+
+_inputs:
+  Passionate:
+    type: object
+    label: "Passionate Section"
+    fields:
+      title:
+        type: string
+        label: "Title"
+      description:
+        type: string
+        label: "Description"
+      side_image:
+        type: image
+        label: "Side Image"

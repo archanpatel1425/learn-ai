@@ -1,0 +1,51 @@
+spec:
+  structures:
+    - content_blocks
+  label: Join Us Section
+  description: "Displays a section encouraging users to join, with custom descriptions and various icons."
+  icon: "heroicons-outline:user-group"
+  tags: ["join us", "description", "icons"]
+
+blueprint:
+  descriptionOne: "Join our team today."
+  descriptionTwoPrefix: "Become part of"
+  descriptionTwoHighlight: "our innovative company"
+  descripitonTwoSuffix: " and grow with us!"
+  polygonLeft: "/path/to/polygon-left.png"
+  roundLeft: "/path/to/round-left.png"
+  smallRoundLeft: "/path/to/small-round-left.png"
+  RectangleLeft: "/path/to/rectangle-left.png"
+  smallRectangleLeft: "/path/to/small-rectangle-left.png"
+  star: "/path/to/star.png"
+
+_inputs:
+  descriptionOne:
+    type: string
+    label: "Description One"
+  descriptionTwoPrefix:
+    type: string
+    label: "Description Two Prefix"
+  descriptionTwoHighlight:
+    type: string
+    label: "Description Two Highlight"
+  descripitonTwoSuffix:
+    type: string
+    label: "Description Two Suffix"
+  polygonLeft:
+    type: image
+    label: "Polygon Left Image"
+  roundLeft:
+    type: image
+    label: "Round Left Image"
+  smallRoundLeft:
+    type: image
+    label: "Small Round Left Image"
+  RectangleLeft:
+    type: image
+    label: "Rectangle Left Image"
+  smallRectangleLeft:
+    type: image
+    label: "Small Rectangle Left Image"
+  star:
+    type: image
+    label: "Star Image"

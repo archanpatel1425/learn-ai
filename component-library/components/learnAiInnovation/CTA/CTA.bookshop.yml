@@ -1,0 +1,23 @@
+spec:
+  structures:
+    - content_blocks
+  label: CTA Section
+  description: A call-to-action section with a description and a button.
+  icon: "megaphone"
+  tags: ["cta", "button", "text", "link"]
+
+blueprint:
+  description: "Join us today and start your journey!"
+  btn_text: "Get Started"
+  btn_link: "/signup"
+
+_inputs:
+  description:
+    type: text
+    label: "CTA Description"
+  btn_text:
+    type: string
+    label: "Button Text"
+  btn_link:
+    type: url
+    label: "Button Link"

@@ -1,0 +1,19 @@
+spec:
+  structures:
+    - content_blocks
+  label: Statement Section
+  description: "Displays a title and description for a statement."
+  icon: "heroicons-outline:document-text"
+  tags: ["statement", "title", "description"]
+
+blueprint:
+  title: "Important Statement"
+  description: "A brief statement with an explanation or details."
+
+_inputs:
+  title:
+    type: string
+    label: "Title"
+  description:
+    type: string
+    label: "Description"

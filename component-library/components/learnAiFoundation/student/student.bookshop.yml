@@ -1,0 +1,25 @@
+spec:
+  structures:
+    - content_blocks
+  label: Student Section
+  description: A section showcasing the e-learning platform for Kenyan students with description and an image.
+  icon: "graduation-cap"
+  tags: ["student", "education", "e-learning"]
+
+blueprint:
+  title: "E-Learning Platform for Kenyan Students"
+  desc_one: "Our platform offers various courses designed to enhance the learning experience for students across Kenya."
+  desc_two: "We provide a diverse range of courses and educational resources to cater to every learner's needs."
+  image: "/images/student-learning.jpg"
+
+preview:
+
+_inputs:
+  title:
+    type: string
+  desc_one:
+    type: string
+  desc_two:
+    type: string
+  image:
+    type: image

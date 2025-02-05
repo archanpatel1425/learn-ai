@@ -1,0 +1,43 @@
+spec:
+  structures:
+    - content_blocks
+  label: Opening Section
+  description: A section to display multiple openings or features with images and call-to-action buttons.
+  icon: "folder-open"
+  tags: ["openings", "cards", "features"]
+
+blueprint:
+  title: "Explore Our Openings"
+  description: "Check out the latest openings and features available."
+  cards:
+    - title: "Opening 1"
+      description: "Discover new opportunities and join our team."
+      image: "/images/opening-1.png"
+      button_text: "Find Out More"
+    - title: "Opening 2"
+      description: "Learn more about our amazing features."
+      image: "/images/opening-2.png"
+      button_text: "Explore Now"
+    - title: "Opening 3"
+      description: "See what we have to offer in our latest release."
+      image: "/images/opening-3.png"
+      button_text: "Get Started"
+
+preview:
+
+_inputs:
+  description:
+    type: markdown
+  cards:
+    type: array
+    items:
+      type: object
+      properties:
+        title:
+          type: string
+        description:
+          type: string
+        image:
+          type: image
+        button_text:
+          type: string

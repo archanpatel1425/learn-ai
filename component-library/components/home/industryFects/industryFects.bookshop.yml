@@ -1,0 +1,34 @@
+spec:
+  structures:
+    - content_blocks
+  label: Industry Facts Section
+  description: industry facts with numbers and descriptions.
+  icon: "bar_chart"
+  tags: ["industry", "facts", "statistics"]
+
+blueprint:
+  title: Key Industry Facts
+  numbers:
+    - prefix: ""
+      number: 100
+      suffix: "%"
+      text: "Customer Satisfaction"
+    - prefix: "Over "
+      number: 500
+      suffix: "K"
+      text: "Happy Clients"
+
+preview:
+
+_inputs:
+  numbers:
+    type: list
+    fields:
+      prefix:
+        type: text
+      number:
+        type: number
+      suffix:
+        type: text
+      text:
+        type: text

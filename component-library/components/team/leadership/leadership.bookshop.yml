@@ -1,0 +1,45 @@
+spec:
+  structures:
+    - content_blocks
+  label: Leadership Section
+  description: Displays a list of leadership team members with their images, roles, and LinkedIn profiles.
+  icon: "heroicons-outline:user-group"
+  tags: ["leadership", "team", "management", "profile"]
+
+blueprint:
+  title: "Meet Our Leadership Team"
+  team_members:
+    - name: "John Doe"
+      role: "CEO & Founder"
+      image: "/images/john-doe.jpg"
+      image_alt: "John Doe - CEO"
+      linkedin_logo: "/images/linkedin-logo.png"
+    - name: "Jane Smith"
+      role: "CTO"
+      image: "/images/jane-smith.jpg"
+      image_alt: "Jane Smith - CTO"
+      linkedin_logo: "/images/linkedin-logo.png"
+
+_inputs:
+  title:
+    type: string
+    label: "Section Title"
+  team_members:
+    type: array
+    label: "Team Members"
+    fields:
+      name:
+        type: string
+        label: "Name"
+      role:
+        type: string
+        label: "Role"
+      image:
+        type: image
+        label: "Profile Image"
+      image_alt:
+        type: string
+        label: "Image Alt Text"
+      linkedin_logo:
+        type: image
+        label: "LinkedIn Logo"

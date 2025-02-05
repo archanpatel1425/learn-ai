@@ -1,0 +1,50 @@
+spec:
+  structures:
+    - content_blocks
+  label: Our Projects Section
+  description: A section highlighting various projects with titles, headings, descriptions, and subsections.
+  icon: "projects"
+  tags: ["projects", "work", "portfolio"]
+
+blueprint:
+  title: Our Projects
+  description: "Explore our latest projects and initiatives."
+  sections:
+    - title: "Community Development"
+      heading: "Empowering Local Communities"
+      description: "We focus on sustainable growth."
+      subsections:
+        - title: "Housing Project"
+          description: "Affordable housing solutions."
+        - title: "Education Initiative"
+          description: "Scholarships and learning programs."
+    - title: "Tech Innovations"
+      heading: "Advancing Technology for a Better Future"
+      description: "Pioneering breakthroughs in AI and automation."
+      subsections:
+        - title: "AI Research"
+          description: "Developing next-gen AI models."
+        - title: "Green Tech"
+          description: "Eco-friendly technology solutions."
+
+preview:
+
+_inputs:
+  description:
+    type: markdown
+  sections:
+    type: list
+    fields:
+      title:
+        type: text
+      heading:
+        type: text
+      description:
+        type: markdown
+      subsections:
+        type: list
+        fields:
+          title:
+            type: text
+          description:
+            type: markdown

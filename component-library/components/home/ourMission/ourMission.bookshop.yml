@@ -1,0 +1,37 @@
+spec:
+  structures:
+    - content_blocks
+  label: Our Mission Section
+  description: A section highlighting our mission with recent updates and links.
+  icon: "flag"
+  tags: ["mission", "updates", "goals"]
+
+blueprint:
+  title: Our Mission
+  description: "Learn more about our vision and recent updates."
+  updates:
+    - title: "New Initiative Launched"
+      date: "2025-01-15"
+      link: "/initiatives/new"
+      text: "Read more"
+    - title: "Annual Report Released"
+      date: "2025-02-10"
+      link: "/reports/annual"
+      text: "View report"
+
+preview:
+
+_inputs:
+  description:
+    type: markdown
+  updates:
+    type: list
+    fields:
+      title:
+        type: text
+      date:
+        type: date
+      link:
+        type: url
+      text:
+        type: text

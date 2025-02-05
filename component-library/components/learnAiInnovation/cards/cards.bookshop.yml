@@ -1,0 +1,37 @@
+spec:
+  structures:
+    - content_blocks
+  label: Cards Section
+  description: A section displaying multiple cards with images, titles, and descriptions.
+  icon: "grid"
+  tags: ["cards", "images", "text"]
+
+blueprint:
+  cards:
+    - title: "Card Title 1"
+      description: "This is a sample description for the first card."
+      image: "/images/card1.jpg"
+      north_image: "/images/north1.jpg"
+    - title: "Card Title 2"
+      description: "This is a sample description for the second card."
+      image: "/images/card2.jpg"
+      north_image: "/images/north2.jpg"
+
+_inputs:
+  cards:
+    type: list
+    item:
+      type: object
+      properties:
+        title:
+          type: string
+          label: "Card Title"
+        description:
+          type: text
+          label: "Description"
+        image:
+          type: image
+          label: "Main Image"
+        north_image:
+          type: image
+          label: "North Logo"

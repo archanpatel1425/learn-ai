@@ -1,0 +1,32 @@
+spec:
+  structures:
+    - content_blocks
+  label: Contact Us Section
+  description: A section for users to contact us with a form and social media links.
+  icon: "contact_mail"
+  tags: ["contact", "form", "social media"]
+
+blueprint:
+  title: Get in Touch
+  description: "Reach out to us with any inquiries or feedback."
+  insta_image: "/images/instagram.png"
+  insta_url: "https://instagram.com/yourprofile"
+  linkedin_image: "/images/linkedin.png"
+  linkedin_url: "https://linkedin.com/yourprofile"
+  submit_btn: "Submit"
+
+preview:
+
+_inputs:
+  description:
+    type: markdown
+  insta_image:
+    type: image
+  insta_url:
+    type: url
+  linkedin_image:
+    type: image
+  linkedin_url:
+    type: url
+  submit_btn:
+    type: text

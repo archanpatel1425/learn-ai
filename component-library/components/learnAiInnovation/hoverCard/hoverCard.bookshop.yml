@@ -1,0 +1,40 @@
+spec:
+  structures:
+    - content_blocks
+  label: Hover Card Section
+  description: A section with hover cards containing highlighted titles and text.
+  icon: "heroicons-outline:view-grid"
+  tags: ["hover", "cards", "interactive", "text"]
+
+blueprint:
+  title: "Explore Our Features"
+  hoverCards:
+    - titlt_highlight: "Feature 1"
+      title: "Fast & Reliable"
+      hover_text: "Experience lightning-fast performance with our platform."
+    - titlt_highlight: "Feature 2"
+      title: "Secure & Private"
+      hover_text: "Your data is protected with the highest security standards."
+    - titlt_highlight: "Feature 3"
+      title: "24/7 Support"
+      hover_text: "Our team is available around the clock to assist you."
+
+_inputs:
+  title:
+    type: string
+    label: "Section Title"
+  hoverCards:
+    type: array
+    label: "Hover Cards"
+    items:
+      type: object
+      properties:
+        titlt_highlight:
+          type: string
+          label: "Highlighted Title"
+        title:
+          type: string
+          label: "Card Title"
+        hover_text:
+          type: text
+          label: "Hover Text"

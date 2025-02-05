@@ -1,0 +1,22 @@
+spec:
+  structures:
+    - content_blocks
+  label: Call to Action (CTA)
+  description: A section with a description and a button linking to a specified URL.
+  icon: "button"
+  tags: ["cta", "call to action", "button", "link"]
+
+blueprint:
+  description: "Take the next step with us and explore more!"
+  btn_text: "Learn More"
+  btn_link: "/learn-more"
+
+preview:
+
+_inputs:
+  description:
+    type: string
+  btn_text:
+    type: string
+  btn_link:
+    type: url

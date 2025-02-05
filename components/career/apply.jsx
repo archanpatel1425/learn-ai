@@ -2,7 +2,7 @@ import Image from "next/image";
 import React from "react";
 
 
-const CareerApplySection = ({ block, dataBinding }) => {
+const Apply = ({ block, dataBinding }) => {
     const { title, description, cards } = block;
     return (
         <div className="mt-12" data-cms-bind={dataBinding}>
@@ -27,4 +27,4 @@ const CareerApplySection = ({ block, dataBinding }) => {
     );
 };
 
-export default CareerApplySection;
+export default Apply;

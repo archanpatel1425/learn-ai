@@ -1,0 +1,26 @@
+spec:
+  structures:
+    - content_blocks
+  label: Hero Section
+  description: "Displays the Hero section with title, highlight, and suffix."
+  icon: "heroicons-outline:star"
+  tags: ["hero", "title", "highlight"]
+
+blueprint:
+  title: "Welcome to Our Platform"
+  highlight: "Amazing"
+  title_suffix: "Features"
+
+_inputs:
+  title:
+    type: string
+    label: "Title"
+    default: "Welcome to Our Platform"
+  highlight:
+    type: string
+    label: "Highlight Text"
+    default: "Amazing"
+  title_suffix:
+    type: string
+    label: "Title Suffix"
+    default: "Features"

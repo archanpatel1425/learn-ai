@@ -1,0 +1,35 @@
+spec:
+  structures:
+    - content_blocks
+  label: Card Section
+  description: A section with a round text and description, followed by multiple cards with images and titles.
+  icon: "image"
+  tags: ["cards", "foundation", "round", "images"]
+
+blueprint:
+  round_text: "Our Foundation"
+  round_desc: "These are the core principles we stand by."
+  cards:
+    - image: "/images/card-1.png"
+      title: "Card 1"
+    - image: "/images/card-2.png"
+      title: "Card 2"
+    - image: "/images/card-3.png"
+      title: "Card 3"
+
+preview:
+
+_inputs:
+  round_text:
+    type: string
+  round_desc:
+    type: string
+  cards:
+    type: array
+    items:
+      type: object
+      properties:
+        image:
+          type: image
+        title:
+          type: string

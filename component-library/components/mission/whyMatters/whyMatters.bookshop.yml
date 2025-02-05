@@ -1,0 +1,19 @@
+spec:
+  structures:
+    - content_blocks
+  label: Why It Matters Section
+  description: "Displays a title and description explaining why something matters."
+  icon: "heroicons-outline:light-bulb"
+  tags: ["why it matters", "title", "description"]
+
+blueprint:
+  title: "Why This Matters"
+  description: "A short explanation of why this topic is important."
+
+_inputs:
+  title:
+    type: string
+    label: "Title"
+  description:
+    type: string
+    label: "Description"

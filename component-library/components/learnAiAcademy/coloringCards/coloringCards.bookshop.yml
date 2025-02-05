@@ -1,0 +1,43 @@
+spec:
+  structures:
+    - content_blocks
+  label: Coloring Cards Section
+  description: A section with multiple cards, each containing a title, description, button, and image.
+  icon: "image"
+  tags: ["cards", "coloring", "buttons", "images"]
+
+blueprint:
+  cards:
+    - title: "Card 1"
+      description: "This is the description for the first card."
+      descriptionTwo: "This is additional description."
+      btn_text: "Click Here"
+      btn_link: "/card-1"
+      image: "/images/card-1.png"
+    - title: "Card 2"
+      description: "This is the description for the second card."
+      descriptionTwo: "This is additional description."
+      btn_text: "Click Here"
+      btn_link: "/card-2"
+      image: "/images/card-2.png"
+
+preview:
+
+_inputs:
+  cards:
+    type: array
+    items:
+      type: object
+      properties:
+        title:
+          type: string
+        description:
+          type: string
+        descriptionTwo:
+          type: string
+        btn_text:
+          type: string
+        btn_link:
+          type: string
+        image:
+          type: image

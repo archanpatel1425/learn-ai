@@ -1,0 +1,25 @@
+spec:
+  structures:
+    - content_blocks
+  label: Map Section
+  description: A section containing a map image with prefix, highlight, and suffix text.
+  icon: "map-pin"
+  tags: ["map", "text", "highlight"]
+
+blueprint:
+  map_img: "/images/africa-map.png"
+  prefix_text: "Explore the continent of"
+  highlight: "Africa"
+  suffix: "and its diverse countries."
+
+preview:
+
+_inputs:
+  map_img:
+    type: image
+  prefix_text:
+    type: string
+  highlight:
+    type: string
+  suffix:
+    type: string

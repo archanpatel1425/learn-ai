@@ -1,0 +1,19 @@
+spec:
+  structures:
+    - content_blocks
+  label: Text and Image Section
+  description: A section containing a title and an image for the foundation content.
+  icon: "image"
+  tags: ["text", "foundation", "image"]
+
+blueprint:
+  title: "Foundation Content Title"
+  image: "/images/foundation-image.jpg"
+
+preview:
+
+_inputs:
+  title:
+    type: string
+  image:
+    type: image

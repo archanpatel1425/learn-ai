@@ -1,0 +1,38 @@
+spec:
+  structures:
+    - content_blocks
+  label: Key Points Section
+  description: "Displays key points with images, titles, and descriptions."
+  icon: "heroicons-outline:light-bulb"
+  tags: ["key points", "image", "title", "description"]
+
+blueprint:
+  points:
+    - image: "image_url_1"
+      image_alt: "Image description 1"
+      title: "Point 1"
+      description: "Description of the first key point."
+    - image: "image_url_2"
+      image_alt: "Image description 2"
+      title: "Point 2"
+      description: "Description of the second key point."
+
+_inputs:
+  points:
+    type: array
+    label: "Key Points"
+    of:
+      type: object
+      fields:
+        image:
+          type: image
+          label: "Image"
+        image_alt:
+          type: string
+          label: "Image Alt Text"
+        title:
+          type: string
+          label: "Title"
+        description:
+          type: string
+          label: "Description"

@@ -1,8 +1,7 @@
 import Link from "next/link";
 import React from "react";
 
-
-const CareerCTASection = ({ block, dataBinding }) => {
+const CTA = ({ block, dataBinding }) => {
     const { title, btn_text, btn_link } = block;
     return (
         <div className="mt-12" data-cms-bind={dataBinding}>
@@ -14,4 +13,4 @@ const CareerCTASection = ({ block, dataBinding }) => {
     );
 };
 
-export default CareerCTASection;
+export default CTA;

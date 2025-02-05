@@ -1,0 +1,23 @@
+spec:
+  structures:
+    - content_blocks
+  label: Contact Section
+  description: "Displays a contact section with a title and a linkable button."
+  icon: "heroicons-outline:phone"
+  tags: ["contact", "call to action", "button"]
+
+blueprint:
+  title: "Contact Us"
+  button_text: "Get in Touch"
+  button_link: "/contact-us"
+
+_inputs:
+  title:
+    type: string
+    label: "Section Title"
+  button_text:
+    type: string
+    label: "Button Text"
+  button_link:
+    type: string
+    label: "Button Link (URL)"

@@ -1,0 +1,19 @@
+spec:
+  structures:
+    - content_blocks
+  label: Commitment Section
+  description: Displays a title and description for the commitment section.
+  icon: "heroicons-outline:hand"
+  tags: ["commitment", "values", "mission", "vision"]
+
+blueprint:
+  title: "Our Commitment to Excellence"
+  description: "We are dedicated to delivering high-quality services and fostering innovation."
+
+_inputs:
+  title:
+    type: string
+    label: "Section Title"
+  description:
+    type: text
+    label: "Description"

@@ -1,0 +1,32 @@
+spec:
+  structures:
+    - content_blocks
+  label: Hero Section
+  description: "Displays a hero section with title, subtitle, and background image."
+  icon: "heroicons-outline:collection"
+  tags: ["hero", "title", "background"]
+
+blueprint:
+  above_title: "Welcome"
+  title: "Your Main Title"
+  title_suffix: " - Suffix"
+  below_title: "Your subheading"
+  background_image: "/path/to/your/image.jpg"
+
+_inputs:
+  above_title:
+    type: string
+    label: "Above Title"
+  title:
+    type: string
+    label: "Main Title"
+  title_suffix:
+    type: string
+    label: "Title Suffix"
+  below_title:
+    type: string
+    label: "Below Title"
+  background_image:
+    type: image
+    label: "Background Image"
+    description: "Image that serves as the background for the hero section."

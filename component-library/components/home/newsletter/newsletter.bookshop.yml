@@ -1,0 +1,27 @@
+spec:
+  structures:
+    - content_blocks
+  label: Newsletter Section
+  description: A section for newsletter subscription with a title, description, and form input.
+  icon: "email"
+  tags: ["newsletter", "subscription", "form"]
+
+blueprint:
+  title: Stay Updated
+  description: "Subscribe to our newsletter."
+  form:
+    placeholder: "Enter your email"
+    button_text: "Subscribe"
+
+preview:
+
+_inputs:
+  description:
+    type: markdown
+  form:
+    type: group
+    fields:
+      placeholder:
+        type: text
+      button_text:
+        type: text

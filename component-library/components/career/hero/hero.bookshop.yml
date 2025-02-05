@@ -1,0 +1,27 @@
+spec:
+  structures:
+    - content_blocks
+  label: Hero Section
+  description: A hero section with highlighted text and background images.
+  icon: "image"
+  tags: ["hero", "highlight", "background"]
+
+blueprint:
+  title_prefix: "Welcome to "
+  highlight: "Our Amazing"
+  title_suffix: " Platform"
+  highlightTwo: " - Your Future"
+  title_suffixTwo: " Starts Here"
+  description: "Discover opportunities and explore new possibilities."
+  background_img: "/images/hero-bg-1.png"
+  background_imgTwo: "/images/hero-bg-2.png"
+
+preview:
+
+_inputs:
+  description:
+    type: markdown
+  background_img:
+    type: image
+  background_imgTwo:
+    type: image

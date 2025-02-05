@@ -1,0 +1,62 @@
+spec:
+  structures:
+    - content_blocks
+  label: Working Section
+  description: A section displaying a series of cards with descriptions, highlighting certain text.
+  icon: "work"
+  tags: ["working", "cards", "description"]
+
+blueprint:
+  title: "How We Work"
+  cards:
+    - image: "/images/card-1.png"
+      description_prefix: "Our team excels in"
+      description_highlight: "collaboration"
+      description_middle: " and focuses on delivering"
+      description_highlightTwo: "innovative solutions"
+      description_text: " to help you achieve success."
+      description_suffix: " Join us today!"
+      right: true
+    - image: "/images/card-2.png"
+      description_prefix: "We emphasize"
+      description_highlight: "growth"
+      description_middle: " and continuous learning in"
+      description_highlightTwo: "our workplace."
+      description_text: " You'll have plenty of opportunities to improve."
+      description_suffix: " Let’s grow together!"
+      right: false
+    - image: "/images/card-3.png"
+      description_prefix: "Our culture is rooted in"
+      description_highlight: "inclusivity"
+      description_middle: " and we support each other through"
+      description_highlightTwo: "teamwork."
+      description_text: " Your success is our success."
+      description_suffix: " Be a part of something great!"
+      right: true
+
+preview:
+
+_inputs:
+  cards:
+    type: array
+    items:
+      type: object
+      properties:
+        image:
+          type: image
+        description_prefix:
+          type: string
+        description_highlight:
+          type: string
+        description_middle:
+          type: string
+        description_highlightTwo:
+          type: string
+        description_text:
+          type: string
+        description_suffix:
+          type: string
+        right:
+          type: boolean
+  description:
+    type: markdown

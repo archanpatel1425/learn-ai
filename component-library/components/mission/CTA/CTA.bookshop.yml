@@ -1,0 +1,36 @@
+spec:
+  structures:
+    - content_blocks
+  label: Call To Action Section
+  description: "Displays a CTA section with multiple cards containing icons, titles, buttons, and hover texts."
+  icon: "heroicons-outline:plus-circle"
+  tags: ["cta", "button", "hover effect"]
+
+blueprint:
+  cards:
+    - icon: "/images/icon1.svg"
+      title: "Card Title 1"
+      button_text: "Click Here"
+      hover_text: "Hover to learn more"
+    - icon: "/images/icon2.svg"
+      title: "Card Title 2"
+      button_text: "Get Started"
+      hover_text: "Explore now"
+
+_inputs:
+  cards:
+    type: array
+    label: "Cards"
+    items:
+      icon:
+        type: string
+        label: "Icon (Image URL)"
+      title:
+        type: string
+        label: "Card Title"
+      button_text:
+        type: string
+        label: "Button Text"
+      hover_text:
+        type: string
+        label: "Hover Text"

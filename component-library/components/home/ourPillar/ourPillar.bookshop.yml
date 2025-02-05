@@ -1,0 +1,37 @@
+spec:
+  structures:
+    - content_blocks
+  label: Our Pillars Section
+  description: A section showcasing our core pillars with icons, descriptions, and links.
+  icon: "support"
+  tags: ["pillars", "values", "mission"]
+
+blueprint:
+  title: Our Pillars
+  description: "Discover the core values that drive our mission."
+  pillars:
+    - title: "Innovation"
+      icon: "/icons/innovation.png"
+      link: "/pillars/innovation"
+      btn: "Learn More"
+    - title: "Sustainability"
+      icon: "/icons/sustainability.png"
+      link: "/pillars/sustainability"
+      btn: "Read More"
+
+preview:
+
+_inputs:
+  description:
+    type: markdown
+  pillars:
+    type: list
+    fields:
+      title:
+        type: text
+      icon:
+        type: image
+      link:
+        type: url
+      btn:
+        type: text

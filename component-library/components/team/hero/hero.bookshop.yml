@@ -1,0 +1,31 @@
+spec:
+  structures:
+    - content_blocks
+  label: Hero Section
+  description: A hero section with a background image, title, highlighted text, and description.
+  icon: "heroicons-outline:photograph"
+  tags: ["hero", "banner", "highlight", "image"]
+
+blueprint:
+  title: "Welcome to Our Platform"
+  highlight: " Empowering Learners"
+  title_suffix: " Worldwide"
+  description: "Join thousands of learners in achieving their dreams with our interactive courses."
+  background_image: "/images/hero-bg.jpg"
+
+_inputs:
+  title:
+    type: string
+    label: "Main Title"
+  highlight:
+    type: string
+    label: "Highlighted Text"
+  title_suffix:
+    type: string
+    label: "Title Suffix"
+  description:
+    type: text
+    label: "Section Description"
+  background_image:
+    type: image
+    label: "Background Image"
