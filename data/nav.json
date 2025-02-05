@@ -18,10 +18,6 @@
 			"text": "About"
 		},
 		{
-			"link": "/blog/",
-			"text": "Blog"
-		},
-		{
 			"link": "/contact/",
 			"text": "Contact"
 		}

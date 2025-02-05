@@ -1,0 +1,23 @@
+spec:
+  structures:
+    - content_blocks
+  label: Career CTA Section
+  description: A section that highlights key pillars with a CTA button.
+  icon: "contact_support"
+  tags: ["cta", "career"]
+
+# Defines the structure of this component, as well as the default values
+blueprint:
+  title: Explore Your Career With Us
+  btn_text: Apply Now
+  btn_link: /career/apply
+
+# Overrides any fields in the blueprint when viewing this component in the component browser
+preview:
+
+# Any extra CloudCannon inputs configuration to apply to the blueprint
+_inputs:
+  btn_text:
+    type: text
+  btn_link:
+    type: url

@@ -1,0 +1,24 @@
+spec:
+  structures:
+    - content_blocks
+  label: Career Apply Section
+  description: A section that displays career application steps with an image and title.
+  icon: "work"
+  tags: ["career", "apply", "steps"]
+
+# Defines the structure of this component, as well as the default values
+blueprint:
+  title: Start Your Career Journey
+  description: "Take the first step towards a bright future with us."
+  image: /banner-career.png
+  alt: "Career Application Process"
+
+# Overrides any fields in the blueprint when viewing this component in the component browser
+preview:
+
+# Any extra CloudCannon inputs configuration to apply to the blueprint
+_inputs:
+  description:
+    type: markdown
+  image:
+    type: image

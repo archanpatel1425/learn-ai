@@ -1,90 +1,41 @@
 {
-    "logo": "/images/footer-logo.svg",
-    "logo_url": "/",
-    "copyright": "MyCompany. All rights reserved.",
-    "social": [
+    "title": "Unlocking the Power of AI, One Mind at a Time",
+    "description": "Get in touch and join the LearnAI community today!",
+    "social_links": [
         {
-            "link": "https://www.facebook.com/mycompany",
-            "icon": "ph-facebook-logo",
-            "icon_alt": "Facebook"
+            "platform": "linkedin",
+            "url": "https://www.linkedin.com/company/unavailable/"
         },
         {
-            "link": "https://www.instagram.com/mycompany",
-            "icon": "ph-instagram-logo",
-            "icon_alt": "Instagram"
-        },
-        {
-            "link": "https://www.twitter.com/mycompany",
-            "icon": "ph-twitter-logo",
-            "icon_alt": "Twitter"
-        },
-        {
-            "link": "https://www.github.com/mycompany",
-            "icon": "ph-github-logo",
-            "icon_alt": "GitHub"
-        },
-        {
-            "link": "https://www.youtube.com/mycompany",
-            "icon": "ph-youtube-logo",
-            "icon_alt": "YouTube"
+            "platform": "github",
+            "url": "https://www.instagram.com/learnaiorg/?igshid=NTc4MTIwNjQ2YQ%3D%3D"
         }
     ],
-    "sections": [
+    "main_links": [
         {
-            "title": "Main Pages",
-            "links": [
-                {
-                    "link": "/",
-                    "text": "Home"
-                },
-                {
-                    "link": "/features",
-                    "text": "Features"
-                },
-                {
-                    "link": "/pricing",
-                    "text": "Price"
-                },
-                {
-                    "link": "/about",
-                    "text": "About"
-                }
-            ]
+            "text": "HOME",
+            "url": "/"
         },
         {
-            "title": "Community",
-            "links": [
-                {
-                    "link": "/blog",
-                    "text": "Blog"
-                },
-                {
-                    "link": "/404.html",
-                    "text": "404"
-                },
-                {
-                    "link": "/feed.xml",
-                    "text": "RSS Feed"
-                }
-            ]
+            "text": "TEAM",
+            "url": "/team"
         },
         {
-            "title": "Company",
-            "links": [
-                {
-                    "link": "/contact",
-                    "text": "Contact"
-                },
-                {
-                    "link": "/privacy",
-                    "text": "Privacy Policy"
-                }
-            ]
+            "text": "OUR MISSION",
+            "url": "/our-mission"
         }
     ],
-    "_inputs": {
-      "logo": {
-        "type": "image"
-      }
-    }
+    "other_links": [
+        {
+            "text": "@2023 All right reserved to LearnAi"
+        },
+        {
+            "text": "Privacy Policy",
+            "url": "/privacy"
+        },
+        {
+            "text": "Terms & Conditions",
+            "url": "/terms"
+        }
+    ]
 }

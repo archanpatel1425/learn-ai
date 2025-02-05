@@ -1,8 +1,8 @@
-import { writeFile } from 'fs/promises';
-import DefaultLayout from '../../components/layouts/default';
 import Filer from '@cloudcannon/filer';
-import { generateRss } from '../../lib/rss';
+import { writeFile } from 'fs/promises';
 import BlogList from '../../components/blog/list';
+import DefaultLayout from '../../components/layouts/Layout';
+import { generateRss } from '../../lib/rss';
 
 const filer = new Filer({ path: 'content' });
 
@@ -18,9 +18,9 @@ export default BlogIndex
 
 export async function getStaticProps({ params }) {
   const page = await filer.getItem('blog.md', { folder: 'pages' });
-  const posts = await filer.getItems('posts', { excerpt: true, sortKey: 'date'});
-  const paginatedPosts = await filer.getPaginatedItems('posts', { sortKey: 'date', pagination: {size: page.data?.pagination?.size || 9, page: 1} });
-	
+  const posts = await filer.getItems('posts', { excerpt: true, sortKey: 'date' });
+  const paginatedPosts = await filer.getPaginatedItems('posts', { sortKey: 'date', pagination: { size: page.data?.pagination?.size || 9, page: 1 } });
+
   await writeFile('./public/feed.xml', generateRss(posts));
 
   return {

@@ -1,6 +1,6 @@
-import DefaultLayout from '../../../components/layouts/default';
 import Filer from '@cloudcannon/filer';
 import BlogList from '../../../components/blog/list';
+import DefaultLayout from '../../../components/layouts/Layout';
 
 const filer = new Filer({ path: 'content' });
 

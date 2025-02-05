@@ -1,12 +1,12 @@
-import DefaultLayout from '../components/layouts/default';
-import Blocks from '../components/shared/blocks';
 import Filer from '@cloudcannon/filer';
+import DefaultLayout from '../components/layouts/Layout';
+import Blocks from '../components/shared/Blocks';
 const filer = new Filer({ path: 'content' });
 
 export default function Page({ page }) {
 	return (
 		<DefaultLayout page={page}>
-        <Blocks content_blocks={page.data.content_blocks} ></Blocks>
+			<Blocks content_blocks={page.data.content_blocks} ></Blocks>
 		</DefaultLayout>
 	);
 }

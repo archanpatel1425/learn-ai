@@ -9,7 +9,7 @@ function Blocks({ children, content_blocks }) {
         {content_blocks.map((block, i) =>{
             const newDataBinding = `#content_blocks.${i}`
             const componentPath = getComponentKey(block._bookshop_name);
-
+            console.log(componentPath)
             const TargetComponent = Object.entries(components).filter(([k]) =>
                 k.endsWith(componentPath)
             )?.[0]?.[1]?.default;
